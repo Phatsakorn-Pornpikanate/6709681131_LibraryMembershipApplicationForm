@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+.container {
+    max-width: 750px;
+    margin: 2rem auto;
+    padding: 60px;
+    padding-top: 30px;
+    background-color: rgb(238, 199, 127);
+    border-radius: 15px;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px;
+    color: #5f320c;
+}
+
+.name_thai , .name_eng , .gender , .std_id , .faculty , .email , .birthday , .book_type , .receive_newemai{
+    margin: 5px;
+}
+
+.required {
+    color: #FF0000;
+    font-size: 16px;
+}
+
+.button_submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button_submit button {
+    background-color: #ff8800;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button_submit button:hover {
+    background-color: #ff5100;
+}
+
+.button_submit {
+    width: 100px;
+}
