@@ -13,25 +13,32 @@
         </div>
         
         <form id="form">
-            <div class="namethai">
-                <label for="first_namethai">ชื่อ (ภาษาไทย) :
+            <div class="name_thai">
+                <label for="firstname_thai">ชื่อ (ภาษาไทย) :
                 </label>
-                <input type="text" id="first_namethai" placeholder="ชื่อ (ภาษาไทย)">
+                <input type="text" id="firstname_thai" placeholder="ชื่อ (ภาษาไทย)">
                 <br>
-                <label for="last_namethai">นามสกุล (ภาษาไทย) :
+                <label for="lastname_thai">นามสกุล (ภาษาไทย) :
                 </label>
-                <input type="text" id="last_namethai" placeholder="นามสกุล (ภาษาไทย)">
+                <input type="text" id="lastname_thai" placeholder="นามสกุล (ภาษาไทย)">
             </div>
 
-            <div class="nameeng">
-                <label for="first_nameeng">ชื่อ (ภาษาอังกฤษ) :
+            <div class="name_eng">
+                <label for="firstname_eng">ชื่อ (ภาษาอังกฤษ) :
                 </label>
-                <input type="text" id="first_nameeng" placeholder="ชื่อ (ภาษาอังกฤษ)">
+                <input type="text" id="firstname_eng" placeholder="ชื่อ (ภาษาอังกฤษ)">
                 <br>
-                <label for="last_nameeng">นามสกุล (ภาษาอังกฤษ) :
+                <label for="lastname_eng">นามสกุล (ภาษาอังกฤษ) :
                 </label>
-                <input type="text" id="last_nameeng" placeholder="นามสกุล (ภาษาอังกฤษ)">
+                <input type="text" id="lastname_eng" placeholder="นามสกุล (ภาษาอังกฤษ)">
             </div>
+
+            <div class="std_id">
+                <label for="std_id">รหัสนักศึกษา :
+                </label>
+                <input type="text" id="std_id" placeholder="6xxxxxxxxx" pattern="(6\d{9}|5\d{9})" minlength="10" maxlength="10" name="std_id">
+            </div>
+
         </form>
     </div>
     
