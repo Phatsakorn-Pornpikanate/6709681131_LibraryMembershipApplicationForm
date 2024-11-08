@@ -33,12 +33,6 @@
                 <input type="text" id="lastname_eng" placeholder="นามสกุล (ภาษาอังกฤษ)">
             </div>
 
-            <div class="std_id">
-                <label for="std_id">รหัสนักศึกษา :
-                </label>
-                <input type="text" id="std_id" placeholder="6xxxxxxxxx" pattern="(6\d{9}|5\d{9})" minlength="10" maxlength="10" name="std_id">
-            </div>
-
             <div class="gender">
                 <label>เพศ (Gender)</label>
                 <div class="gender_choose">
@@ -54,10 +48,10 @@
                 </div>
             </div>
 
-            <div class="birthday">
-                <label for="birthday">วันเดือนปีเกิด
+            <div class="std_id">
+                <label for="std_id">รหัสนักศึกษา :
                 </label>
-                <input type="date" id="birthday" name="birthday" >
+                <input type="text" id="std_id" placeholder="6xxxxxxxxx" pattern="(6\d{9}|5\d{9})" minlength="10" maxlength="10" name="std_id">
             </div>
 
             <div class="faculty">
@@ -84,6 +78,12 @@
                 <label for="email">ที่อยู่อีเมล
                 </label>
                 <input type="email" id="email" placeholder="email@dome.tu.ac.th" name="email" >
+            </div>
+
+            <div class="birthday">
+                <label for="birthday">วันเดือนปีเกิด
+                </label>
+                <input type="date" id="birthday" name="birthday" >
             </div>
 
             <div class="book_type">
