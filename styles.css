@@ -61,3 +61,17 @@ body {
 .button_submit {
     width: 100px;
 }
+
+@media (max-width:600px) /*iphone*/{
+    .container{
+        padding: 15px;
+    }
+    .header h1 {    
+        font-size: 18px;
+    }
+    .button_submit{ 
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+}
