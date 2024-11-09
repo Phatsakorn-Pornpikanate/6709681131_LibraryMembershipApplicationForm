@@ -16,14 +16,16 @@ body {
     padding-top: 30px;
     background-color: rgb(238, 199, 127);
     border-radius: 15px;
+    box-sizing: border-box;
 }
 
 .header h1 {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 600;
     text-align: center;
     margin: 15px;
     color: #5f320c;
+    word-spacing: nowrap;
 }
 
 .name_thai , .name_eng , .gender , .std_id , .faculty , .email , .birthday , .book_type , .receive_newemai{
